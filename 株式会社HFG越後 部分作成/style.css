@@ -1,0 +1,108 @@
+html {
+  font-size: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+
+header {
+  background-color: black;
+  margin-bottom: 80px;
+  
+}
+
+header img {
+  width: 70px;
+  height: 70px;
+  padding: 3px 0px 0px 15px;
+}
+
+header .flex {
+  display: flex;
+  position: relative;
+}
+
+header nav .logo{
+  left: 0;
+  position: absolute;
+}
+
+header nav .link {
+  right: 0;
+  position: absolute;
+  margin-top: 10px;
+}
+
+header div ul li {
+  display: inline;
+  padding-right: 30px;
+  font-size: 18px;
+  
+}
+
+header div ul li a {
+  color: black;
+  font-family: 'HG正楷書体-PRO';
+}
+
+header div ul li:last-child {
+  padding-right: 30px;
+}
+
+main {
+  background-color: rgba(168, 170, 170, 0.555);
+}
+main .slider img {
+  padding: 30px 50px 10px 50px;
+  background-color: rgba(168, 170, 170, 0.555);
+  margin: 0;
+  
+}
+main .contentTop {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  font-family: 'HG正楷書体-PRO';
+}
+main .content {
+  display: flex;
+  padding-right: 80px;
+  padding-left: 80px;
+  justify-content: center;
+}
+
+main .contentTitle {
+  text-align: center;
+}
+/*contentの１つ目ここから*/
+
+main .content a img {
+  width: 500px;
+  height: 300px;
+  padding-right: 20px;
+}
+main .contentOneText {
+  padding-left: 20px;
+}
+/*contentの１つ目ここまで*/
+
+/*contentの２つ目ここから*/
+main .contentTwo a img {
+  width: 600px;
+  height: 300px;
+  padding-left: 20px;
+}
+main .contentTwoText {
+  padding-right: 20px;
+}
+/*contentの２つ目ここまで*/
+
+footer {
+  background-color: lightgray;
+}

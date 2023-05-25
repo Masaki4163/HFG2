@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+    <head> 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta name=”robots” content=”noindex” />
+        <meta name=”robots” content=”noindex,nofollow“>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/png" href="img/icon.png"><!--サイトアイコン-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+        <title>株式会社HFG越後</title>
+    </head>
+    <body>
+        <header>
+            <nav class="flex">
+                <div class="logo"><a href="" ><img src="img/logo.jpg" alt=""></a></div>
+                <div class="link">
+                    <ul>
+                        <li><a href="">リンク１</a></li>
+                        <li><a href="">リンク２</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+                <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+            <script type="text/javascript">
+                    $(document).ready(function(){
+                        $('.slider').bxSlider({
+                            auto: true,
+                            pause: 5000,
+                        });
+                    });
+            </script>
+            <div class="slider">
+                <img src="img/slide1.png" width="600" height="600" alt="">
+                <img src="img/slide2.png" width="600" height="600" alt="">
+            </div>
+            </section>
+            <h1 class="contentTop">見出し１</h1>
+            <div class="content">
+                <a href=""><img src="img/content1.png" alt=""></a>
+                <div class="contentOneText">
+                    <h1 class="contentTitle">タイトル</h1>
+                    <h2>テキストテキストテキストテキストテキストテキスト<br>テキストテキスト<br>テキストテキストテキストテキスト<br>テキストテキストテキスト</h2>
+                </div>
+            </div>
+            <h1 class="contentTop">見出し２</h1>
+            <div class="content">
+                <div class="contentTwoText">
+                    <h1 class="contentTitle">タイトル</h1>
+                    <h2>テキストテキストテキストテキストテキストテキスト<br>テキストテキスト<br>テキストテキストテキストテキスト<br>テキストテキストテキスト</h2>
+                </div>
+                <a href=""><img src="img/content1.png" alt=""></a>
+            </div>
+        </main>
+        <footer>
+            <h1>footer</h1>
+        </footer>
+    </body>
+</html>
