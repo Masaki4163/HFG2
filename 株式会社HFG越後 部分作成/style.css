@@ -29,7 +29,7 @@ header .flex {
 }
 
 header nav .logo{
-  left: 0;
+  left: 50;
   position: absolute;
 }
 
