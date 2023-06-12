@@ -50,7 +50,10 @@ header div ul li a {
   color: black;
   font-family: 'HG正楷書体-PRO';
 }
-
+.text {
+	display:flex;
+	margin: 80px 0;
+}
 header div ul li:last-child {
   padding-right: 30px;
 }
