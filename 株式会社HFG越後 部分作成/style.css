@@ -120,3 +120,8 @@ h2　{
     background-size: auto;
     background-repeat:no-repeat ;
 }
+p{
+	width:500px;
+	text-align:center;
+	background-color:#0FF;
+}
